@@ -1,9 +1,17 @@
-Getting and Cleaning Data -- Course Project
+GetData005 -- Course Project
 ===========================================
 
-Please take some time and read this document before grading.
+Simply run the command `source("run_analysis.R")` in the interactive
+command line of R, then it will automatically download the data and
+produce two files, i.e. `mergeddata.txt` and `tidyavg.txt`.
+The file `mergeddata.txt`
+is produced by merging the original training set and testing data, while
+`tidyavg.txt` is the file that contains the average of each variable for each
+activity and each subject.
 
-Measurements on the Mean and Standard Deviation
+For further information, please refer to `run_analysis.R` and `CodeBook.md`.
+
+Measurements on the Mean and Std Dev.
 -----------------------------------------------
 
 These features are considered to be measurements on the mean and
